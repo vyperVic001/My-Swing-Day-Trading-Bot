@@ -1,0 +1,16 @@
+{
+  "telegram": {
+    "bot_token": "7776369951:AAELzrnp3fPN3wx6THlL6VnBTAHeUKWuc7o",
+    "chat_id": "609252204"
+  },
+  "symbols": {
+    "XAUUSD": {"provider":"yfinance","ticker":"GC=F"},
+    "XAGUSD": {"provider":"yfinance","ticker":"SI=F"},
+    "BTCUSD": {"provider":"yfinance","ticker":"BTC-USD"},
+    "GBPUSD": {"provider":"yfinance","ticker":"GBPUSD=X"},
+    "USDJPY": {"provider":"yfinance","ticker":"JPY=X"}
+  },
+  "timeframes": ["1h","4h","30m"],
+  "risk": {"default_risk_percent":0.5,"account_balance":1000},
+  "bot": {"min_time_between_signals_sec":300,"log_level":"INFO"}
+}
